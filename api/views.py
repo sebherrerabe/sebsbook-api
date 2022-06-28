@@ -12,6 +12,9 @@ def getRoutes(req):
     routes = [
         "GET /api/posts/",
         "GET /api/posts/<int:id>",
+        "POST /api/posts/",
+        "PUT /api/posts/<int:id>",
+        "DELETE /api/posts/<int:id>",
     ]
     return Response(routes)
 
